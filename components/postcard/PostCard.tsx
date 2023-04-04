@@ -22,7 +22,7 @@ const PostCard = ({ post }: PostsProps) => {
         </div>
         <div className="flex flex-col my-2 p-2 ">
           <h1 className="capitalize font-semibold text-base">{post.title}</h1>
-          <span className="flex gap-x-2 items-center my-2">
+          <span className="flex gap-x-2 items-center my-3">
             <Image
               alt="post image"
               width="1000"
